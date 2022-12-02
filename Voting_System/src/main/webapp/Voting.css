@@ -1,0 +1,66 @@
+@charset "ISO-8859-1";
+body{
+	margin:0;
+	font-size:25px;
+	background-image:url("https://cdn.pixabay.com/photo/2019/02/27/18/23/india-4024661_960_720.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	font-family: arial,sans-serif;
+}
+.container{
+	margin-top:100px;
+	margin-bottom: 160px;
+}
+.text-warning{
+	font-weight:bold;
+}
+.nav-bar{
+	display:flex;
+	justify-content:right;
+	padding:20px;
+	background-color:#6D9886;
+	color:white;
+}
+.nav-a{
+	text-decoration:none;
+	color:white;
+	margin-left:30px;
+	margin-right:20px;
+}
+form{
+	margin:110px 80px 42px 850px;
+	padding: 10px 10px 10px 10px;
+	border-style: solid;
+	border-color:#0000c6;
+	background-color:white;
+	border-radius:5px;
+	border-width:1px;
+}
+.buttons{
+	font-size:20px;
+	background-color:#0000c6;
+	color:white;
+	border-width:0.5px;
+	text-align:center;
+}
+#banner_content{
+	background-color: rgba(255, 255, 255, 0.7);
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 1px;
+    padding-top: 1px;
+}
+.image{
+	float:right;
+	width:200px;
+}
+table{
+	background-color: white;
+	border-radius:15px;
+	margin: 5px 0 0 300px;
+	
+}
+table tr th,td{
+	padding-left: 60px;
+	padding-right: 60px;
+}
